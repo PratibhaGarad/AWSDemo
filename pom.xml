@@ -54,7 +54,6 @@
                 <inherited>false</inherited>
                 <executions>
                     <execution> 
-       --->
                         <id>build-info</id>
                         <goals>
                             <goal>publish</goal>
@@ -92,6 +91,7 @@
                 </executions>
             </plugin>
             <plugin>
+       --- >
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
